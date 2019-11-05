@@ -9,3 +9,5 @@ class NewCard extends React.Component {
         )
     }
 }
+
+export default NewCard;
