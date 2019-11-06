@@ -1,14 +1,15 @@
 import React from 'react'
 
-class NewCard extends React.Component {
-    render() {
-        return (
-            <div className="f1 tr">
-                <h1>HEllo World!</h1>
-                <h2>HELLLO FROM INDIA</h2>
+const Card = () => {
+    return (
+        <div>
+            <img src="" alt="photos" />
+            <div>
+                <h2>Subha Sarkar</h2>
+               <p>subha7431@gmail.com</p> 
             </div>
-        )
-    }
+        </div>
+    )
 }
 
-export default NewCard;
+export default Card;

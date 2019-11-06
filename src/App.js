@@ -1,13 +1,12 @@
 import React from 'react';
-import './App.css';
-import NewCard from './newCard'
+import Card from './newCard'
 
 class App extends React.Component {
   render() {
     return (
        <div className="App">
-        <NewCard />
-        <NewCard />
+        <Card />
+        <Card />
     </div>
     )
   }
