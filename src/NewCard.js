@@ -1,14 +1,15 @@
-import React from 'react'
 
-const Card = () => {
+import React, { Fragment } from 'react';
+
+const Card = ({ name, email, id }) => {
     return (
-        <div>
-            <img src="" alt="photos" />
-            <div>
-                <h2>Subha Sarkar</h2>
-               <p>subha7431@gmail.com</p> 
+        <Fragment>
+            <div className="bg-light-green br3 pd3 grow dib ma4 bw2 shadow-5 tc">
+                <img src={`https://robohash.org/${id}?200x200`} alt="photos"/>
+                <h2>{name}</h2>
+                <p>{email}</p> 
             </div>
-        </div>
+        </Fragment>
     )
 }
 
