@@ -30,31 +30,31 @@ export const robots = [{
     },
     {
         id: 6,
-        name: 'Mrs. Dennis Schulist',
+        name: 'Shuvayu Modok',
         username: 'Leopoldo_Corkery',
         email: 'Karley_Dach@jasper.info'
     },
     {
         id: 7,
-        name: 'Kurtis Weissnat',
+        name: 'Swagata Nath',
         username: 'Elwyn.Skiles',
         email: 'Telly.Hoeger@billy.biz'
     },
     {
         id: 8,
-        name: 'Nicholas Runolfsdottir V',
+        name: 'Adarsh Sati Prasad',
         username: 'Maxime_Nienow',
         email: 'Sherwood@rosamond.me'
     },
     {
         id: 9,
-        name: 'Glenna Reichert',
+        name: 'Abir Sen',
         username: 'Delphine',
         email: 'Chaim_McDermott@dana.io'
     },
     {
         id: 10,
-        name: 'Clementina DuBuque',
+        name: 'Dibakar Roy',
         username: 'Moriah.Stanton',
         email: 'Rey.Padberg@karina.biz'
     }
