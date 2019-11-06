@@ -1,7 +1,7 @@
 import React from 'react';
-import CardList from './CardLIst'
-import SearchBox from './SearchBox.js'
-import Scroll from './Scroll'
+import CardList from '../components/CardLIst'
+import SearchBox from '../components/SearchBox'
+import Scroll from '../components/Scroll'
 
 
 class App extends React.Component {
@@ -25,8 +25,9 @@ class App extends React.Component {
      this.setState({searchfield: event.target.value})
   }
   render() {
-     const filterfriend = this.state.users.filter(robot => {
-       return robot.name.toLowerCase().includes(this.state.searchfield.toLowerCase())
+    const { users, searchfield } = this.state
+     const filterfriend = users.filter(robot => {
+       return robot.name.toLowerCase().includes(searchfield.toLowerCase())
      })
     return (
       <div className="tc fw-9">
